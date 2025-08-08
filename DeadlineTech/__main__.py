@@ -87,13 +87,13 @@ async def init():
     except:
         pass
     await Anony.decorators()
-    LOGGER("DeadlineTech").info(
-        "DeadlineTech Music Bot started successfully"
+    LOGGER("HARUKA_X_MUSIC").info(
+        "HARUKA_X_MUSIC Music Bot started successfully"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("DeadlineTech").info("Stopping DeadlineTech Music Bot...")
+    LOGGER("HARUKA_X_MUSIC").info("Stopping Haruka Music Bot...")
 
 
 if __name__ == "__main__":
