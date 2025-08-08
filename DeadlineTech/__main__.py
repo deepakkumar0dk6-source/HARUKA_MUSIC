@@ -8,12 +8,12 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from DeadlineTech import LOGGER, app, userbot
-from DeadlineTech.core.call import Anony
-from DeadlineTech.misc import sudo
-from DeadlineTech.plugins import ALL_MODULES
-from DeadlineTech.utils.database import get_banned_users, get_gbanned
-from DeadlineTech.utils.crash_reporter import setup_global_exception_handler  # ✅ Import crash handler
+from HARUKA_X_MUSIC  import LOGGER, app, userbot
+from HARUKA_X_MUSIC .core.call import Anony
+from HARUKA_X_MUSIC.misc import sudo
+from HARUKA_X_MUSIC.plugins import ALL_MODULES
+from HARUKA_X_MUSIC.utils.database import get_banned_users, get_gbanned
+from HARUKA_X_MUSIC.utils.crash_reporter import setup_global_exception_handler  # ✅ Import crash handler
 from config import BANNED_USERS
 
 async def init():
@@ -73,14 +73,14 @@ async def init():
 
     
     for all_module in ALL_MODULES:
-        importlib.import_module("DeadlineTech.plugins" + all_module)
-    LOGGER("DeadlineTech.plugins").info("Successfully Imported Modules...")
+        importlib.import_module("HARUKA_X_MUSIC.plugins" + all_module)
+    LOGGER("HARUKA_X_MUSIC.plugins").info("Successfully Imported Modules...")
     await userbot.start()
     await Anony.start()
     try:
         await Anony.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
     except NoActiveGroupCall:
-        LOGGER("DeadlineTech").error(
+        LOGGER("HARUKA_X_MUSIC").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
         )
         exit()
