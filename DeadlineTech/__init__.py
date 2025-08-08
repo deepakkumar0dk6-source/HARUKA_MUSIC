@@ -1,9 +1,9 @@
 # Powered By Team DeadlineTech
-from DeadlineTech.core.bot import Anony
-from DeadlineTech.core.dir import dirr
-from DeadlineTech.core.git import git
-from DeadlineTech.core.userbot import Userbot
-from DeadlineTech.misc import dbb, heroku
+from HARUKA_X_MUSIC.core.bot import Anony
+from HARUKA_X_MUSIC.core.dir import dirr
+from HARUKA_X_MUSIC.core.git import git
+from HARUKA_X_MUSIC.core.userbot import Userbot
+from HARUKA_X_MUSIC.misc import dbb, heroku
 
 from .logging import LOGGER
 
