@@ -93,7 +93,7 @@ async def init():
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("HARUKA_X_MUSIC").info("Stopping Haruka Music Bot...")
+    LOGGER("HARUKA_X_MUSIC").info("Stopping HARUKA_X_MUSIC Music Bot...")
 
 
 if __name__ == "__main__":
