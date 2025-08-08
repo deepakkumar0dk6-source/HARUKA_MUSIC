@@ -34,35 +34,35 @@ assistantids = []
 class Userbot(Client):
     def __init__(self):
         self.one = Client(
-            name="DeadlineXAss1",
+            name="HARUKA_X_MUS1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
             no_updates=True,
         )
         self.two = Client(
-            name="DeadlineXAss2",
+            name="HARUKA_X_MUS2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
             no_updates=True,
         )
         self.three = Client(
-            name="DeadlineXAss3",
+            name="HARUKA_X_MUS3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
             no_updates=True,
         )
         self.four = Client(
-            name="DeadlineXAss4",
+            name="HARUKA_X_MUS4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
             no_updates=True,
         )
         self.five = Client(
-            name="DeadlineXAss5",
+            name="HARUKA_X_MUS5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
@@ -75,8 +75,8 @@ class Userbot(Client):
         async def setup_assistant(client, number):
             try:
                 await client.start()
-                await client.join_chat("DeadlineTechTeam")
-                await client.join_chat("DeadlineTechSupport")
+                await client.join_chat("HARUKA_X_MUSICTeam")
+                await client.join_chat("HARUKA_X_MUSICSupport")
             except Exception:
                 pass
 
